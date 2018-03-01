@@ -76,8 +76,10 @@ function setAvailableVotes(id, value) {
 
 
 With the functions above, you can tell **funretro.io** that you've made the votes on an inspected element:
-```
+```js
 var id = getMessageId($0);
 setAvailableVotes( id, getVoteCount(id) );
+
+// The refresh is required to update Angular's data model
 window.location.reload(true);
 ```
