@@ -1,6 +1,6 @@
-# Fun with funretro.io
+# Fun with [funretro.io](https://funretro.io)
 
-Just a few functions whipped up while playing with https://funretro.io.
+Just a few functions whipped up while bending the rules on https://funretro.io.
 
 ```js
 function parseUrl() {
